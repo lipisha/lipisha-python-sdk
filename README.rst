@@ -9,7 +9,7 @@ Lipisha Payment API Client
 This package provides bindings for the Lipisha Payments API (http://developer.lipisha.com/)
 
 * Free software: BSD license
-* Documentation: https://lipisha.readthedocs.org.
+* Documentation: http://lipisha-python-client.readthedocs.org.
 
 Features
 --------
