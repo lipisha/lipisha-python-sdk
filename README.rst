@@ -25,7 +25,7 @@ Examples
 
 IPN callback examples are in the examples directory:
 
-https://github.com/lipisha/lipisha-python-client/examples
+https://github.com/lipisha/lipisha-python-client/tree/master/examples
 
 Quick start
 -----------

@@ -20,6 +20,9 @@ Examples require setting up of these environment variables for your platform.
 * LIPISHA_API_KEY
 * LIPISHA_API_SIGNATURE
 
+
+.. code-block:: bash
+
     export LIPISHA_API_KEY="<YOUR API KEY>"
     export LIPISHA_API_SIGNATURE="<YOUR API SIGNATURE>"
 
