@@ -20,6 +20,13 @@ Features
 * Get Balance
 * Acknowledge transactions
 
+Examples
+--------
+
+IPN callback examples are in the examples directory:
+
+https://github.com/lipisha/lipisha-python-client/examples
+
 Quick start
 -----------
 
