@@ -248,7 +248,7 @@ Quick start
 
 
 
-    >>> fortress.send_money(account_number="00396", mobile_number="07XXYYYZZZ", amount=50)
+    >>> lipisha.send_money(account_number="098777", mobile_number="07XXYYYZZZ", amount=50)
     {u'content': {u'amount': u'50',
       u'customer_name': u'',
       u'mobile_number': u'07XXYYYZZZ',
