@@ -15,7 +15,7 @@ import unittest
 
 from lipisha import Lipisha
 
-TEST_ENVIRONMENT = os.environ.get('LIPISHA_TEST_ENVIRONMENT', 'SANDBOX')
+TEST_ENVIRONMENT = os.environ.get('LIPISHA_TEST_ENVIRONMENT', 'test')
 API_KEY = os.environ.get('LIPISHA_TEST_API_KEY')
 API_SIGNATURE = os.environ.get('LIPISHA_TEST_API_SIGNATURE')
 TEST_MOBILE_NUMBER = os.environ.get('LIPISHA_TEST_MOBILE_NUMBER')

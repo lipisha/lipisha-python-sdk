@@ -103,7 +103,8 @@ class Lipisha(object):
         parameters = dict()
         parameters.update(self.default_parameters)
         parameters.update(kwargs)
-        response = self.opener.open(api_url, urlencode(parameters))
+        post_params = urlencode(parameters).encode('utf-8')
+        response = self.opener.open(api_url, post_params)
         return json.loads(response.read().decode('utf-8'))
 
 
