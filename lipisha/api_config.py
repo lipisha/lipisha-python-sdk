@@ -13,6 +13,7 @@ DEFAULT_OPTIONAL_PARAMETERS = ['api_version', 'api_type']
 API_METHOD_CONFIGURATION = (
     ('get_balance', ['api_type'], []),
     ('send_money', ['account_number', 'mobile_number', 'amount'], []),
+    ('request_money', ['account_number', 'mobile_number', 'method', 'amount', 'currency', 'reference'], []),
     ('get_float', ['account_number'], []),
     ('send_sms', ['mobile_number', 'message'], []),
     ('acknowledge_transaction', ['transaction'], []),

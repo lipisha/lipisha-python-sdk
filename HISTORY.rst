@@ -3,6 +3,10 @@
 History
 -------
 
+0.2.4 (2016-09-15)
+
+* Added request_money API (See `Request Money API <http://developer.lipisha.com/index.php/app/launch/api_request_money>`)
+
 0.2.3 (2016-04-20)
 ------------------
 

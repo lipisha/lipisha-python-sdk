@@ -24,7 +24,7 @@ test_requirements = [
 
 setup(
     name='lipisha',
-    version='0.2.3',
+    version='0.2.4',
     description="This package provides bindings for the Lipisha Payments API (http://developer.lipisha.com/)",
     long_description=readme + '\n\n' + history,
     author="Mũrĩthi Borona",

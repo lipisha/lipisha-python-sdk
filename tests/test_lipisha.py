@@ -47,6 +47,8 @@ class BaseTest(unittest.TestCase):
     response_tests = []
 
     def runTest(self):
+        if not self.api_method:
+            return
         assert len(self.required_parameters) == len(self.parameter_mapping), \
             "Check Parameter Setup for this Test"
         param_values = [os.environ.get(p) for p in self.required_parameters]
@@ -88,6 +90,17 @@ class TestLipishaSendMoney(BaseTest):
                            'LIPISHA_TEST_PAYOUT_AMOUNT']
     parameter_mapping = ['mobile_number', 'account_number', 'amount']
 
+
+class TestLipishaRequestMoney(BaseTest):
+
+    api_method = 'request_money'
+    default_parameters = dict(method='Paybill (M-Pesa)',
+                              currency='KES',
+                              reference='TEST-REFERENCE')
+    required_parameters = ['LIPISHA_TEST_MOBILE_NUMBER',
+                           'LIPISHA_TEST_REQUEST_ACCOUNT',
+                           'LIPISHA_TEST_REQUEST_AMOUNT']
+    parameter_mapping = ['mobile_number', 'account_number', 'amount']
 
 class TestLipishaAcknowledgeTransaction(BaseTest):
 
