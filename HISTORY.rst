@@ -4,6 +4,7 @@ History
 -------
 
 0.2.5 (2020-11-02)
+------------------
 
 * Updated API Base URLs
 
