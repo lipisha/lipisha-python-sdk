@@ -37,13 +37,13 @@ Quick start
     >>> api_signature = "YOUR API SIGNATURE"
     >>> lipisha = Lipisha(api_key, api_signature)
     >>> lipisha.api_base_url
-    'https://lipisha.com/payments/accounts/index.php/v2/api'
+    'https://api.lypa.io/v2/api'
     >>> lipisha = Lipisha(api_key, api_signature, api_environment='test')
     >>> lipisha.api_base_url
-    'http://developer.lipisha.com/index.php/v2/api/'
+    'https://developer.lipisha.com/index.php/v2/api/'
     >>> lipisha = Lipisha(api_key, api_signature, api_environment='live')
     >>> lipisha.api_base_url
-    'https://lipisha.com/payments/accounts/index.php/v2/api'
+    'https://api.lypa.io/v2/api'
 
     >>> lipisha.confirm_transaction(transaction='YYYE9WWWW0')
     
