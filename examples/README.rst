@@ -9,7 +9,7 @@ Lipisha Payment IPN Examples
 This folder contains examples of IPN callback implementations for Django and Pyramid.
 This is for guidance only - it may be adopted and adapted to fit implementation requirements.
 
-Lipisha Payments API (http://developer.lipisha.com/)
+Lipisha Payments API (https://developer.lipisha.com/)
 
 
 USAGE
@@ -30,5 +30,5 @@ Examples require setting up of these environment variables for your platform.
 Then, wire the views and set up the configured URL as the as your IPN callback in your Lipisha account or your lipisha sandbox account.
 
 * Lipisha https://lipisha.com
-* Sandbox: http://sandbox.lipisha.com
+* Sandbox: http://developer.lipisha.com
 
