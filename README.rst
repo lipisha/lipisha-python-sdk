@@ -14,7 +14,8 @@ This package provides bindings for the Lipisha Payments API (http://developer.li
 Features
 --------
 
-* Send money
+* Request Money
+* Send Money
 * Send SMS
 * Get Float
 * Get Balance
