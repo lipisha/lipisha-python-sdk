@@ -2,8 +2,8 @@
 
 # Configuration
 DEFAULT_API_VERSION = '1.3.0'
-API_BASE_URL = 'https://lipisha.com/payments/accounts/index.php/v2/api'
-API_SANDBOX_URL = 'http://developer.lipisha.com/index.php/v2/api/'
+API_BASE_URL = 'https://api.lypa.io/v2/api'
+API_SANDBOX_URL = 'https://developer.lipisha.com/index.php/v2/api'
 
 # API Configuration: (<method_name> , <expected_parameters>,
 # <optional_parameters>)
