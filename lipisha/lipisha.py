@@ -21,7 +21,7 @@ API_DOC_TEMPLATE = '''API Method: {method}
 
 API_URL: {base_url}/{method}
 
-DOCUMENTATION: http://developer.lipisha.com/index.php/app/launch/api_{method}
+DOCUMENTATION: https://developer.lipisha.com/index.php/app/launch/api_{method}
 
 Required Parameters:
 
