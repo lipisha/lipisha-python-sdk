@@ -24,12 +24,12 @@ test_requirements = [
 
 setup(
     name='lipisha',
-    version='0.2.4',
-    description="This package provides bindings for the Lipisha Payments API (http://developer.lipisha.com/)",
+    version='0.2.5',
+    description="This package provides bindings for the Lipisha Payments API (https://developer.lipisha.com/)",
     long_description=readme + '\n\n' + history,
     author="Mũrĩthi Borona",
     author_email='tech@lipisha.com',
-    url='https://github.com/lipisha/lipisha-python-client',
+    url='https://github.com/lipisha/lipisha-python-sdk',
     packages=[
         'lipisha',
     ],
