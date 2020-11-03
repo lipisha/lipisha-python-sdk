@@ -258,7 +258,7 @@ texinfo_documents = [
      u'Lipisha Payment API SDK Documentation',
      u'Mũrĩthi Borona',
      'lipisha',
-     'One line description of project.',
+     'Lipisha Payment API SDK Documentation.',
      'Miscellaneous'),
 ]
 
