@@ -6,7 +6,7 @@ Lipisha Payment API SDK
         :target: https://pypi.python.org/pypi/lipisha
 
 
-This package provides bindings for the Lipisha Payments API (http://developer.lipisha.com/)
+This package provides bindings for the Lipisha Payments API (https://developer.lipisha.com/)
 
 * Free software: MIT License
 * Documentation: https://lipisha-python-sdk.readthedocs.org.
