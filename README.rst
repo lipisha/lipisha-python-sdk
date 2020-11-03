@@ -20,7 +20,7 @@ Features
 * Get Float
 * Get Balance
 * Acknowledge Transaction
-* Etc
+* More - http://developer.lipisha.com/
 
 Examples
 --------
