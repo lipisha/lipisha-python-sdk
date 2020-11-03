@@ -209,7 +209,7 @@ latex_elements = {
 # [howto/manual]).
 latex_documents = [
     ('index', 'lipisha.tex',
-     u'Lipisha Payment API SDK Documentation',
+     u'Lipisha Payment API Python SDK Documentation',
      u'Mũrĩthi Borona', 'manual'),
 ]
 
@@ -240,7 +240,7 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     ('index', 'lipisha',
-     u'Lipisha Payment API SDK Documentation',
+     u'Lipisha Payment API Python SDK Documentation',
      [u'Mũrĩthi Borona'], 1)
 ]
 
@@ -255,7 +255,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
     ('index', 'lipisha',
-     u'Lipisha Payment API SDK Documentation',
+     u'Lipisha Payment API Python SDK Documentation',
      u'Mũrĩthi Borona',
      'lipisha',
      'This package provides bindings for the Lipisha Payments API',

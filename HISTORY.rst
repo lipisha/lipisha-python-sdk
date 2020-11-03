@@ -3,6 +3,12 @@
 History
 -------
 
+0.3.0 (2020-11-03)
+------------------
+
+* Reflect all round updates on API, License and Docs.
+
+
 0.2.5 (2020-11-02)
 ------------------
 

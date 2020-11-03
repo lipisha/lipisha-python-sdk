@@ -1,6 +1,6 @@
-===============================
-Lipisha Payment API SDK
-===============================
+==============================
+Lipisha Payment API Python SDK
+==============================
 
 .. image:: https://img.shields.io/pypi/v/lipisha.svg
         :target: https://pypi.python.org/pypi/lipisha

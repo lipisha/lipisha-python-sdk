@@ -2,7 +2,7 @@
 
 __author__ = 'Mũrĩthi Borona'
 __email__ = 'tech@lipisha.com'
-__version__ = '0.2.2'
+__version__ = '0.2.6'
 
 from .lipisha import Lipisha
 LipishaAPIClient = Lipisha
