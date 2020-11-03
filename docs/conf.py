@@ -55,7 +55,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Lipisha Payment API SDK'
+project = u'Lipisha Payment API Python SDK'
 copyright = u'2020, Lipisha Consortium Limited'
 
 # The version info for the project you're documenting, acts as replacement
