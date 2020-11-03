@@ -1,5 +1,5 @@
 ===============================
-Lipisha Payment API Client
+Lipisha Payment API SDK
 ===============================
 
 .. image:: https://img.shields.io/pypi/v/lipisha.svg
@@ -9,7 +9,7 @@ Lipisha Payment API Client
 This package provides bindings for the Lipisha Payments API (http://developer.lipisha.com/)
 
 * Free software: MIT license
-* Documentation: http://lipisha-python-client.readthedocs.org.
+* Documentation: http://lipisha-python-sdk.readthedocs.org.
 
 Features
 --------
@@ -36,20 +36,24 @@ Quick start
 
     >>> from lipisha import Lipisha
     
-    >>> api_key = "YOUR API KEY"    
+    >>> api_key = "YOUR API KEY"
+
     >>> api_signature = "YOUR API SIGNATURE"
     
     >>> lipisha = Lipisha(api_key, api_signature)
+
     >>> lipisha.api_base_url
     
     'https://api.lypa.io/v2/api'
     
     >>> lipisha = Lipisha(api_key, api_signature, api_environment='test')
+
     >>> lipisha.api_base_url
     
     'https://developer.lipisha.com/index.php/v2/api/'
     
     >>> lipisha = Lipisha(api_key, api_signature, api_environment='live')
+    
     >>> lipisha.api_base_url
     
     'https://api.lypa.io/v2/api'
@@ -99,7 +103,6 @@ Quick start
      u'status': {u'status': u'SUCCESS',
       u'status_code': 0,
       u'status_description': u'Float Found'}}
-
 
     >>> lipisha.confirm_transaction(transaction='YYYE9WWWW0')
     
@@ -249,7 +252,6 @@ Quick start
       u'status_code': 0,
       u'status_description': u'Customers Found'}}
 
-
     >>> lipisha.authorize_card_transaction(account_number="098000",
                                            card_number="4242424242424242",
                                            address1="PO BOX 11111 99999",
@@ -269,7 +271,6 @@ Quick start
       u'status_code': u'0000',
       u'status_description': u'Transaction Authorized Successfully'}}
 
-
     >>> lipisha.complete_card_transaction(transaction_reference=11111, transaction_index="{CDD55BEB-F74A-4A8B-8D5C-2FC77FF14E7B}")
     
     {u'content': {u'transaction_index': u'{CDD55BEB-F74A-4A8B-8D5C-2FC77FF14E7B}',
@@ -281,7 +282,6 @@ Quick start
     >>> lipisha.reverse_card_transaction(transaction_reference=11111, transaction_index="{CDD55BEB-F74A-4A8B-8D5C-2FC77FF14E7B}")
     
     {u'content': None, u'status': None}
-    
     
     >>> lipisha.create_payment_account(transaction_account_type=1,
                                        transaction_account_name="MPESA Payments",
@@ -315,6 +315,7 @@ Quick start
       u'status': {u'status': u'SUCCESS',
                   u'status_code': 0,
                   u'status_description': u'Account Created'}}
+
 
 Installation
 ------------

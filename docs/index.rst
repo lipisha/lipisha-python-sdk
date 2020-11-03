@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Lipisha Payment API Client's documentation!
+Welcome to Lipisha Payment API SDK's documentation!
 =====================================================
 
 Contents:

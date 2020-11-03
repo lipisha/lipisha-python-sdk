@@ -13,7 +13,7 @@ Types of Contributions
 Report Bugs
 ~~~~~~~~~~~
 
-Report bugs at https://github.com/lipisha/lipisha-python-client/issues.
+Report bugs at https://github.com/lipisha/lipisha-python-sdk/issues.
 
 If you are reporting a bug, please include:
 
@@ -36,14 +36,14 @@ is open to whoever wants to implement it.
 Write Documentation
 ~~~~~~~~~~~~~~~~~~~
 
-Lipisha Payment API Client could always use more documentation, whether as part of the
-official Lipisha Payment API Client docs, in docstrings, or even on the web in blog posts,
+Lipisha Payment API SDK could always use more documentation, whether as part of the
+official Lipisha Payment API SDK docs, in docstrings, or even on the web in blog posts,
 articles, and such.
 
 Submit Feedback
 ~~~~~~~~~~~~~~~
 
-The best way to send feedback is to file an issue at https://github.com/lipisha/lipisha-python-client/issues.
+The best way to send feedback is to file an issue at https://github.com/lipisha/lipisha-python-sdk/issues.
 
 If you are proposing a feature:
 

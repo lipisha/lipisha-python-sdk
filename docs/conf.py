@@ -55,8 +55,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Lipisha Payment API Client'
-copyright = u'2015, Lipisha Consortium Limited'
+project = u'Lipisha Payment API SDK'
+copyright = u'2020, Lipisha Consortium Limited'
 
 # The version info for the project you're documenting, acts as replacement
 # for |version| and |release|, also used in various other places throughout
@@ -209,7 +209,7 @@ latex_elements = {
 # [howto/manual]).
 latex_documents = [
     ('index', 'lipisha.tex',
-     u'Lipisha Payment API Client Documentation',
+     u'Lipisha Payment API SDK Documentation',
      u'Mũrĩthi Borona', 'manual'),
 ]
 
@@ -240,7 +240,7 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     ('index', 'lipisha',
-     u'Lipisha Payment API Client Documentation',
+     u'Lipisha Payment API SDK Documentation',
      [u'Mũrĩthi Borona'], 1)
 ]
 
@@ -255,7 +255,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
     ('index', 'lipisha',
-     u'Lipisha Payment API Client Documentation',
+     u'Lipisha Payment API SDK Documentation',
      u'Mũrĩthi Borona',
      'lipisha',
      'One line description of project.',
