@@ -8,8 +8,8 @@ Lipisha Payment API SDK
 
 This package provides bindings for the Lipisha Payments API (http://developer.lipisha.com/)
 
-* Free software: MIT license
-* Documentation: http://lipisha-python-sdk.readthedocs.org.
+* Free software: MIT License
+* Documentation: https://lipisha-python-sdk.readthedocs.org.
 
 Features
 --------
@@ -20,7 +20,7 @@ Features
 * Get Float
 * Get Balance
 * Acknowledge Transaction
-* More - http://developer.lipisha.com/
+* More - https://developer.lipisha.com/
 
 Examples
 --------
@@ -330,8 +330,8 @@ At the command line::
 
     Manual installation
 
-    $ git clone https://github.com/lipisha/lipisha-python-client.git
-    $ cd lipisha-python-client
+    $ git clone https://github.com/lipisha/lipisha-python-sdk.git
+    $ cd lipisha-python-sdk
     $ python setup.py install
 
     Or, if you have virtualenvwrapper installed::

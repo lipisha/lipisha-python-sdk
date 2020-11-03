@@ -258,7 +258,7 @@ texinfo_documents = [
      u'Lipisha Payment API SDK Documentation',
      u'Mũrĩthi Borona',
      'lipisha',
-     'Lipisha Payment API SDK Documentation.',
+     'This package provides bindings for the Lipisha Payments API',
      'Miscellaneous'),
 ]
 

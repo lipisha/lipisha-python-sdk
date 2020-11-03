@@ -12,8 +12,8 @@ $ easy_install lipisha
 
 Manual installation
 
-$ git clone https://github.com/lipisha/lipisha-python-client.git
-$ cd lipisha-python-client
+$ git clone https://github.com/lipisha/lipisha-python-sdk.git
+$ cd lipisha-python-sdk
 $ python setup.py install
 
 Or, if you have virtualenvwrapper installed::
